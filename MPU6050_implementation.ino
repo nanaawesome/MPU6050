@@ -1,7 +1,7 @@
 #include "Wire.h"
 #include <MPU6050_light.h>
 MPU6050 mpu(Wire);
-#define LEDPIN 3
+#define LEDPIN 9
 unsigned long timer = 0;
 int min_angle,max_angle,brightness,z_angle;
 
